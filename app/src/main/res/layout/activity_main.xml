@@ -7,13 +7,56 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:id="@+id/voice_button"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
         android:onClick="voice"
-        android:text="Button"
+        android:text="TAKE ATTENDANCE"
+        app:layout_constraintEnd_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticle_bias="0.199" />
+
+    <Button
+        android:id="@+id/log_button"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        android:text="ATTENDANCE LOG"
+        app:layout_constraintEnd_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticle_bias="0.384" />
+
+    <Button
+        android:id="@+id/finder_button"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="348dp"
+        android:text="FINDER"
+        app:layout_constraintEnd_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticle_bias="0.554" />
+
+    <Button
+        android:id="@+id/credit_button"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="488dp"
+        android:text="CREDITS"
+        app:layout_constraintEnd_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticle_bias="0.741" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
