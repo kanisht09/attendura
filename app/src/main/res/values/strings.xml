@@ -4,4 +4,5 @@
     <string name="Log_Button">Attendance Log</string>
     <string name="Finder_Button">Attendance Search</string>
     <string name="Credit_Btn">Credits</string>
+    <string name="Menu_Input">User Inputs</string>
 </resources>
