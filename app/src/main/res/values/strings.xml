@@ -5,4 +5,10 @@
     <string name="Finder_Button">Attendance Search</string>
     <string name="Credit_Btn">Credits</string>
     <string name="Menu_Input">User Inputs</string>
+    <string name="enter_first_roll_number">Enter First Roll number</string>
+    <string name="enter_last_roll_number">Enter Last Roll number</string>
+    <string name="submit">Submit</string>
+    <string name="switch1">Switch</string>
+    <string name="show">Show</string>
+    <string name="save">Save</string>
 </resources>
